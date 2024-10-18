@@ -75,27 +75,38 @@ if (stripeConfigured) {
 }
 
 // SendGrid notification provider
-const sendgridApiKey = process.env.SENDGRID_API_KEY;
-const sendgridFrom = process.env.SENDGRID_FROM_EMAIL;
-const sendgridConfigured = sendgridApiKey && sendgridFrom;
-if (sendgridConfigured) {
-  console.log('SendGrid api key and from address found, enabling SendGrid notification provider');
+const resendApiKey = process.env.RESEND_API_KEY;
+const resendFrom = process.env.RESEND_FROM_EMAIL;
+const resendConfigured = resendApiKey && resendFrom;
+if (resendConfigured) {
+  console.log('SendGrid api key and from address found, enabling Resend notification provider');
   modules[Modules.NOTIFICATION] = {
-    resolve: '@medusajs/notification',
-    options: {
-      providers: [
-        {
-          resolve: '@medusajs/notification-sendgrid',
-          id: 'sendgrid',
-          options: {
-            channels: ['email'],
-            api_key: sendgridApiKey,
-            from: sendgridFrom
-          }
-        }
-      ]
-    }
-  };
+    resolve: `medusa-plugin-resend-custom`,
+       options: {
+          api_key: process.env.RESEND_API_ID,
+          from: process.env.SES_FROM,
+          enable_endpoint: process.env.SES_ENABLE_ENDPOINT,
+          template_path: process.env.SES_TEMPLATE_PATH,
+          subject_template_type: process.env.RESEND_SUBJECT_TEMPLATE_TYPE,
+          body_template_type: process.env.RESEND_BODY_TEMPLATE_TYPE,
+          order_placed_template: 'order_placed',
+          order_shipped_template: 'order_shipped',
+          customer_password_reset_template: 'customer_password_reset',
+          gift_card_created_template: 'gift_card_created',
+          //If your event is 'customer.created', the '.' will be replaced with '_', 
+          //and the template definition will be， customer_created_template:<your templdate dir>
+          //order_canceled_template: 'order_canceled',
+          //order_refund_created_template: 'order_refund_created',
+          //order_return_requested_template: 'order_return_requested',
+          //order_items_returned_template: 'order_items_returned',
+          //swap_created_template: 'swap_created',
+          //swap_shipment_created_template: 'swap_shipment_created',
+          //swap_received_template: 'swap_received',
+          //claim_shipment_created_template: 'claim_shipment_created',
+          //user_password_reset_template: 'user_password_reset',
+          //medusa_restock_template: 'medusa_restock',
+       }
+    },
 }
 
 /** @type {import('@medusajs/medusa').ConfigModule['projectConfig']} */

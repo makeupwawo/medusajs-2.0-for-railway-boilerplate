@@ -106,7 +106,7 @@ if (resendConfigured) {
           //user_password_reset_template: 'user_password_reset',
           //medusa_restock_template: 'medusa_restock',
        }
-    },
+    };
 }
 
 /** @type {import('@medusajs/medusa').ConfigModule['projectConfig']} */

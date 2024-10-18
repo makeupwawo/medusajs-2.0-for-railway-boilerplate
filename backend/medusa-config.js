@@ -74,12 +74,12 @@ if (stripeConfigured) {
   };
 }
 
-// SendGrid notification provider
+// Resend notification provider
 const resendApiKey = process.env.RESEND_API_KEY;
 const resendFrom = process.env.RESEND_FROM_EMAIL;
 const resendConfigured = resendApiKey && resendFrom;
 if (resendConfigured) {
-  console.log('SendGrid api key and from address found, enabling Resend notification provider');
+  console.log('Resend api key and from address found, enabling Resend notification provider');
   modules[Modules.NOTIFICATION] = {
     resolve: `medusa-plugin-resend-custom`,
        options: {

@@ -89,7 +89,7 @@ if (resendConfigured) {
           template_path: process.env.SES_TEMPLATE_PATH,
           subject_template_type: process.env.RESEND_SUBJECT_TEMPLATE_TYPE,
           body_template_type: process.env.RESEND_BODY_TEMPLATE_TYPE,
-          order_placed_template: 'order_placed',
+          //order_placed_template: 'order_placed',
           //order_shipped_template: 'order_shipped',
           //customer_password_reset_template: 'customer_password_reset',
           //gift_card_created_template: 'gift_card_created',

@@ -52,7 +52,7 @@ export default async function userInviteHandler({
 
   <p>You can view your order details <a href="${backendUrl}/admin/orders/${order.id}">here</a>.</p>
 
-  <p>Sincerely,<br>The Medusa Team</p>
+  <p>Sincerely,<br>The Wow Makeup Store Team</p>
 `;
 
   try {

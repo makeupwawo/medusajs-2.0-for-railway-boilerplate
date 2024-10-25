@@ -10,21 +10,24 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Well done! You have successfully deployed your Medusa 2.0 store on Railway!
+            The destination for the very best in beauty! 
+            From make up and skin care to fragrance, hair care and more,
+            explore our line up of trending brands today.
           </Heading>
           <Heading
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Need help customizing your store?
+            Shop for the biggest beauty brands, at the lowest prices. 
+            Over 1000 products including makeup, cosmetics, skincare, haircare, nails.
           </Heading>
         </span>
         <a
-          href="https://funkyton.com/medusajs-2-0-is-finally-here/"
+          href="/store/"
           target="_blank"
         >
-          <h1 style={{ textDecoration: "underline" }}>
-            Visit the tutorial
+          <h1 style={{ textDecoration: "none" }}>
+            Shop now
           </h1>
         </a>
       </div>

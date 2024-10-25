@@ -10,16 +10,16 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            The destination for the very best in beauty! 
-            From make up and skin care to fragrance, hair care and more,
-            explore our line up of trending brands today.
+            The destination for the best in beauty! 
+            From make up and skincare to haircare,fragrance and more,
+
           </Heading>
           <Heading
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Shop for the biggest beauty brands, at the lowest prices. 
-            Over 1000 products including makeup, cosmetics, skincare, haircare, nails.
+            Explore our line up of trending brands today. At the lowest prices. 
+            products including makeup, cosmetics, skincare, haircare, nails.
           </Heading>
         </span>
         <a

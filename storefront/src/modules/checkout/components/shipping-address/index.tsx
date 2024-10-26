@@ -136,9 +136,9 @@ const ShippingAddress = ({
           data-testid="shipping-company-input"
         />
         <Input
-          label="Postal code"
+          label="Mobile"
           name="shipping_address.postal_code"
-          autoComplete="postal-code"
+          autoComplete="mobile"
           value={formData["shipping_address.postal_code"]}
           onChange={handleChange}
           required
@@ -163,7 +163,7 @@ const ShippingAddress = ({
           data-testid="shipping-country-select"
         />
         <Input
-          label="State / Province"
+          label="Emirate"
           name="shipping_address.province"
           autoComplete="address-level1"
           value={formData["shipping_address.province"]}

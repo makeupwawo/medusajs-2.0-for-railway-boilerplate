@@ -171,10 +171,10 @@ const EditAddress: React.FC<EditAddressProps> = ({
               />
               <div className="grid grid-cols-[144px_1fr] gap-x-2">
                 <Input
-                  label="Postal code"
-                  name="postal_code"
+                  label="Mobile"
+                  name="Mobile"
                   required
-                  autoComplete="postal-code"
+                  autoComplete="phone"
                   defaultValue={address.postal_code || undefined}
                   data-testid="postal-code-input"
                 />

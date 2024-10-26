@@ -127,7 +127,7 @@ const ProfileBillingAddress: React.FC<MyInformationProps> = ({
           />
           <div className="grid grid-cols-[144px_1fr] gap-x-2">
             <Input
-              label="Postal code"
+              label="Mobile"
               name="billing_address.postal_code"
               defaultValue={billingAddress?.postal_code || undefined}
               required
@@ -142,7 +142,7 @@ const ProfileBillingAddress: React.FC<MyInformationProps> = ({
             />
           </div>
           <Input
-            label="Province"
+            label="Emirate"
             name="billing_address.province"
             defaultValue={billingAddress?.province || undefined}
             data-testid="billing-province-input"

@@ -11,7 +11,7 @@ const Hero = () => {
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
             The destination for the best in beauty! 
-            From make up and skincare to haircare,fragrance and more,
+            products including makeup, cosmetics, skincare, haircare, nails, fragrance and more,
 
           </Heading>
           <Heading
@@ -19,13 +19,13 @@ const Hero = () => {
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
             Explore our line up of trending brands today. At the lowest prices. 
-            products including makeup, cosmetics, skincare, haircare, nails.
           </Heading>
         </span>
         <a
           href="/store/"
           target="_blank"
         >
+          <button className="w-full mt-6">Shop now</button>
           <h1 style={{ textDecoration: "none" }}>
             Shop now
           </h1>

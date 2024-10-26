@@ -10,8 +10,8 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            The destination for the best in beauty! 
-            products including makeup, cosmetics, skincare, haircare, nails, fragrance and more,
+            The destination for the best in beauty! <br></br>
+            products including makeup, cosmetics, <br></br>skincare, haircare, nails, fragrance and more,
 
           </Heading>
           <Heading
@@ -25,10 +25,7 @@ const Hero = () => {
           href="/store/"
           target="_blank"
         >
-          <button className="w-full mt-6">Shop now</button>
-          <h1 style={{ textDecoration: "none" }}>
-            Shop now
-          </h1>
+          <button className="btn btn-gradient">Shop now</button>
         </a>
       </div>
     </div>

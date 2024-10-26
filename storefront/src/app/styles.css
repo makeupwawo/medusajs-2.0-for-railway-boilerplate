@@ -1,9 +1,6 @@
-html {
-    overflow: hidden;
-    width: 100%;
-    }
-    body {
-    height: 100%;
-    position: fixed;
-    -webkit-overflow-scrolling: touch;
-    }
+
+body {
+    overflow-x: hidden!important;
+    overflow: auto;
+    min-height: 100vh;
+}

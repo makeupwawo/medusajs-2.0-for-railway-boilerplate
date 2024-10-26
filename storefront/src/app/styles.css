@@ -1,16 +1,4 @@
-/*:root{
+:root{
     min-height: -webkit-fill-available;
-    height: 100vh;
-}
-    8*/
-
-html {
-overflow: hidden;
-width: 100%;
-}
-body {
-height: 100%;
-position: fixed;
-overflow-y: scroll;
--webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }

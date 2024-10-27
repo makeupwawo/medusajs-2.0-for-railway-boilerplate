@@ -138,7 +138,7 @@ const ShippingAddress = ({
         <Input
           label="Mobile"
           name="shipping_address.postal_code"
-          autoComplete="mobile"
+          autoComplete="tel"
           value={formData["shipping_address.postal_code"]}
           onChange={handleChange}
           required

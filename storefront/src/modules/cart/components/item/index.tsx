@@ -53,7 +53,7 @@ const Item = ({ item, type = "full" }: ItemProps) => {
           href={`/products/${handle}`}
           className={clx("flex", {
             "w-16": type === "preview",
-            "small:w-24 w-12 m-2": type === "full",
+            "small:w-24 w-12": type === "full",
           })}
         >
           <Thumbnail
@@ -76,7 +76,7 @@ const Item = ({ item, type = "full" }: ItemProps) => {
 
       {type === "full" && (
         <Table.Cell>
-          <div className="flex gap-2 items-center w-28">
+          <div className="flex gap-2 items-center">
             <DeleteButton id={item.id} data-testid="product-delete-button" />
             <CartItemSelect
               value={item.quantity}

@@ -49,9 +49,6 @@ export default async function userInviteHandler({
         </tr>`).join('')}
     </tbody>
   </table>
-
-  <p>You can view your order details <a href="${backendUrl}/admin/orders/${order.id}">here</a>.</p>
-
   <p>Sincerely,<br>The Wow Makeup Store Team</p>
 `;
 

@@ -104,6 +104,10 @@ const BillingAddress = ({ cart }: { cart: HttpTypes.StoreCart | null }) => {
           onChange={handleChange}
           required
           data-testid="billing-province-input"
+          <datalist id="emirates">
+          <option value="Dubai">  
+          <option value="Ajman">
+        </datalist>
         />
         <Input
           label="Phone"

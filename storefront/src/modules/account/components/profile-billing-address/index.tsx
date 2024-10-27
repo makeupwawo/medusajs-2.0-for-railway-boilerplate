@@ -146,10 +146,6 @@ const ProfileBillingAddress: React.FC<MyInformationProps> = ({
             name="billing_address.province"
             defaultValue={billingAddress?.province || undefined}
             data-testid="billing-province-input"
-            <datalist id="emirates">
-            <option value="Dubai">  
-            <option value="Ajman">
-          </datalist>
           />
           <NativeSelect
             name="billing_address.country_code"

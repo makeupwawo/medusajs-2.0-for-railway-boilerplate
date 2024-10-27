@@ -170,10 +170,6 @@ const ShippingAddress = ({
           onChange={handleChange}
           required
           data-testid="shipping-province-input"
-          <datalist id="emirates">
-          <option value="Dubai">  
-          <option value="Ajman">
-        </datalist>
         />
       </div>
       <div className="my-8">

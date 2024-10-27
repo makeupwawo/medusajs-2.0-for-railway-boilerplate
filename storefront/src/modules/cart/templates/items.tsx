@@ -24,7 +24,7 @@ const ItemsTemplate = ({ items }: ItemsTemplateProps) => {
             <Table.HeaderCell className="hidden small:table-cell">
               Price
             </Table.HeaderCell>
-            <Table.HeaderCell className="!pr-0 text-right">
+            <Table.HeaderCell className="!pr-0 text-left">
               Total
             </Table.HeaderCell>
           </Table.Row>

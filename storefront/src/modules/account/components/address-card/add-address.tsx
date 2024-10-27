@@ -114,10 +114,6 @@ const AddAddress = ({ region }: { region: HttpTypes.StoreRegion }) => {
                 name="Emirate"
                 autoComplete="address-level1"
                 data-testid="state-input"
-                <datalist id="emirates">
-                <option value="Dubai">  
-                <option value="Ajman">
-              </datalist>
               />
               <CountrySelect
                 region={region}

@@ -14,7 +14,7 @@ const ShippingDetails = ({ order }: ShippingDetailsProps) => {
       <Heading level="h2" className="flex flex-row text-3xl-regular my-6">
         Delivery
       </Heading>
-      <div className="flex items-start gap-x-8">
+      <div className="flex items-start gap-x-2.5">
         <div
           className="flex flex-col w-1/3"
           data-testid="shipping-address-summary"
@@ -40,7 +40,7 @@ const ShippingDetails = ({ order }: ShippingDetailsProps) => {
         </div>
 
         <div
-          className="flex flex-col w-1/3 "
+          className="flex flex-col w-1/3 w-auto	"
           data-testid="shipping-contact-summary"
         >
           <Text className="txt-medium-plus text-ui-fg-base mb-1">Contact</Text>

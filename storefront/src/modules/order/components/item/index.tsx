@@ -32,7 +32,7 @@ const Item = ({ item }: ItemProps) => {
       </Table.Cell>
 
       <Table.Cell className="!pr-0">
-        <span className="!pr-0 flex flex-col items-end h-full justify-center">
+        <span className="!pr-0 flex flex-col items-center h-full justify-center">
           <span className="flex gap-x-1 ">
             <Text className="text-ui-fg-muted">
               <span data-testid="product-quantity">{item.quantity}</span>x{" "}

@@ -95,10 +95,10 @@ const AddAddress = ({ region }: { region: HttpTypes.StoreRegion }) => {
               />
               <div className="grid grid-cols-[144px_1fr] gap-x-2">
                 <Input
-                  label="Postal code"
-                  name="postal_code"
+                  label="Mobile"
+                  name="Mobile"
                   required
-                  autoComplete="postal-code"
+                  autoComplete="tel"
                   data-testid="postal-code-input"
                 />
                 <Input
@@ -110,8 +110,8 @@ const AddAddress = ({ region }: { region: HttpTypes.StoreRegion }) => {
                 />
               </div>
               <Input
-                label="Province / State"
-                name="province"
+                label="Emirate"
+                name="Emirate"
                 autoComplete="address-level1"
                 data-testid="state-input"
               />

@@ -23,7 +23,7 @@ const SkeletonCartItem = () => {
           <div className="w-12 h-6 bg-gray-200 animate-pulse" />
         </div>
       </Table.Cell>
-      <Table.Cell className="!pr-0 text-right">
+      <Table.Cell className="!pr-0 text-center">
         <div className="flex gap-2 justify-end">
           <div className="w-12 h-6 bg-gray-200 animate-pulse" />
         </div>

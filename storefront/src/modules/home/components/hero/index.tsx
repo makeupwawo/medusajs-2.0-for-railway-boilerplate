@@ -18,6 +18,7 @@ const Hero = () => {
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
+            <br></br>
             Explore our line up of trending brands today. At the lowest prices. 
           </Heading>
         </span>

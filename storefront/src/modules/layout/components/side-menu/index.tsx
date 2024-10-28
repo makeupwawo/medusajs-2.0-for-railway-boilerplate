@@ -91,7 +91,7 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                         />
                       </div>
                       <Text className="flex justify-between txt-compact-small">
-                        © {new Date().getFullYear()} Wow Makeup Store. All rights
+                        © {new Date().getFullYear()} Wow Makeup Store.<br></br> All rights
                         reserved.
                       </Text>
                     </div>

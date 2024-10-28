@@ -66,7 +66,8 @@ if (stripeConfigured) {
           id: 'stripe',
           options: {
             apiKey: stripeApiKey,
-            webhookSecret: stripeWebhookSecret
+            webhookSecret: stripeWebhookSecret,
+            automatic_payment_methods: true,
           }
         }
       ]

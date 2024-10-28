@@ -1,9 +1,8 @@
 
 .cart-icon{
-color: #f4f4f4;
-line-height: 1.5;
-padding: 5px;
-border-radius: 15px;
-text-align: center;
-background-color: rgb(46, 45, 45);
+    line-height: 1.5;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    text-align: center;
 }

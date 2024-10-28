@@ -1,11 +1,11 @@
 
 .cart-icon{
-color: #4f4d4d;
+color: #ffffff;
 text-decoration: none;
 line-height: 2;
 padding: 8px;
-border: 1px solid #fff;
+border: 1px solid #000000;
 border-radius: 25px;
-text-align: right;
-background-color: black;
+text-align: center;
+background-color: rgb(53, 53, 53);
 }

@@ -3,7 +3,7 @@ import { Button, Heading } from "@medusajs/ui"
 
 const Hero = () => {
   return (
-    <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-gradient-to-r from-blue-300 to-blue-400">
+    <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-gradient-to-r from-blue-200 to-blue-300">
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-5">
         <span>
           <Heading

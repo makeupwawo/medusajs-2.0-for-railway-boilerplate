@@ -6,3 +6,7 @@
     border-radius: 15px;
     text-align: center;
 }
+
+body{
+    height: 100lvw;
+}

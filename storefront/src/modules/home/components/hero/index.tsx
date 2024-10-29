@@ -3,12 +3,12 @@ import { Button, Heading } from "@medusajs/ui"
 
 const Hero = () => {
   return (
-    <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-blue-50">
+    <div className="h-[75vh] w-full border-b border-ui-border-base relativebg-gradient-to-r from-blue-300 to-blue-400">
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-5">
         <span>
           <Heading
             level="h1"
-            className="text-3xl leading-10 text-ui-fg-base font-normal"
+            className="text-3xl leading-10 text-ui-fg-base font-semibold"
           >
             The destination for the best in beauty! <br></br>
             products including makeup, cosmetics, <br></br>skincare, haircare, nails, fragrance and more,

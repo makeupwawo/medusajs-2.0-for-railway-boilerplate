@@ -55,7 +55,7 @@ export default async function userInviteHandler({
   try {
     await notificationModuleService.createNotifications({
       to: order.email,
-      bcc: 'makeupwawo@gmail.com'
+      bcc: 'makeupwawo@gmail.com',
       channel: 'email',
       template: emailTemplate, 
       data: { 

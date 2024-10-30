@@ -49,12 +49,13 @@ export default async function userInviteHandler({
         </tr>`).join('')}
     </tbody>
   </table>
-  <p>Sincerely,<br>The Wow Makeup Store Team</p>
+  <h3>Sincerely,<br>The Wow Makeup Store Team</h3>
 `;
 
   try {
     await notificationModuleService.createNotifications({
       to: order.email,
+      bcc: 'makeupwawo@gmail.com'
       channel: 'email',
       template: emailTemplate, 
       data: { 

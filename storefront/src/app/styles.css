@@ -15,7 +15,6 @@ html, body {
 .scrollHorizantal{
     overflow-x: auto;
     white-space: nowrap;
-    padding: 15px;
 }
 .scrollHorizantal a{
 display: inline-block;

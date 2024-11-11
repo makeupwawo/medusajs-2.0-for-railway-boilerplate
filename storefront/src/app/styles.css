@@ -13,7 +13,7 @@ html, body {
 }
 
 .scrollHorizantal{
-    overflow-x: auto;
+    overflow-x: auto !important;
     white-space: nowrap;
 }
 .scrollHorizantal a{

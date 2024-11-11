@@ -11,3 +11,15 @@ html, body {
     width: 100%;
     height: 100% !important;
 }
+
+.scrollHorizantal{
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollHorizantal a{
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+}

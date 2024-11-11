@@ -13,12 +13,12 @@ html, body {
 }
 
 .scrollHorizantal{
-    overflow: auto;
+    overflow-x: auto;
     white-space: nowrap;
 }
 .scrollHorizantal a{
 display: inline-block;
 text-align: center;
-padding: 14px;
+padding: 15px;
 text-decoration: none;
 }

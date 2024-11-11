@@ -72,7 +72,7 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                       })}
                     </ul>
                     <div className="scrollHorizantal">
-                    <a href="#home">Home</a>
+                    <a href="/categories/shop-by-brands">Shop by brand</a>
                     <a href="#news">News</a>
                     <a href="#contact">Contact</a>
                     <a href="#about">About</a>

@@ -11,7 +11,7 @@ export const retrieveCollection = cache(async function (id: string) {
 
 export const getCollectionsList = cache(async function (
   offset: number = 0,
-  limit: number = 100
+  limit: number = 200
 ): Promise<{ collections: HttpTypes.StoreCollection[]; count: number }> {
   return sdk.store.collection
     .list({ limit, offset: 0 }, { next: { tags: ["collections"] } })

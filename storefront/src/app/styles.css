@@ -19,6 +19,7 @@ html, body {
 .scrollHorizantal a{
 display: inline-block;
 text-align: center;
+padding: 15px;
 text-decoration: none;
 padding-top: 5px;
 padding-bottom: 5px;

@@ -10,7 +10,7 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-semibold"
           >
-            The destination for the best in beauty!
+            <br></br> The destination for the best in beauty!
              <br></br>
             products including makeup, cosmetics, 
             <br></br>skincare, haircare, nails, fragrance and more,
@@ -20,7 +20,7 @@ const Hero = () => {
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            <br></br>
+            <br></br><br></br>
             Explore our line up of trending brands today. At the lowest prices. 
           </Heading>
         </span>
@@ -31,6 +31,7 @@ const Hero = () => {
               Shop Now
           </button>
         </a>
+        <br></br>
       </div>
     </div>
   )

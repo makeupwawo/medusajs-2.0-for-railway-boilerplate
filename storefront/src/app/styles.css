@@ -29,3 +29,7 @@ padding-bottom: 5px;
 margin-top: auto;
 margin-bottom: auto;
 }
+
+header{
+    position: relative;
+}

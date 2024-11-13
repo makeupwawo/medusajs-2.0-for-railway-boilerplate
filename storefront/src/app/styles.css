@@ -15,6 +15,9 @@ html, body {
 .scrollHorizantal{
     overflow-x: auto !important;
     white-space: nowrap;
+    scrollbar-width: none;
+    --tw-backdrop-blur: blur(12px);
+backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .scrollHorizantal a{
 display: inline-block;
@@ -25,6 +28,4 @@ padding-top: 5px;
 padding-bottom: 5px;
 margin-top: auto;
 margin-bottom: auto;
---tw-backdrop-blur: blur(12px);
-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }

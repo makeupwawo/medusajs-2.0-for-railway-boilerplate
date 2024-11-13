@@ -26,12 +26,6 @@ export default async function Nav() {
               data-testid="nav-store-link"
             >
               Wow Makeup Store
-              <div className="scrollHorizantal">
-                    <a href="/categories/shop-by-brands">Shop by brand</a>
-                    <a href="/categories/shop-by-section">Shop by section</a>
-                    <a href="/collections/sales">Sale Collection</a>
-                    <a href="/collections/best-seller">Best seller</a>
-                    </div>
             </LocalizedClientLink>
           </div>
 
@@ -71,6 +65,12 @@ export default async function Nav() {
             </Suspense>
             </div>
           </div>
+          <div className="scrollHorizantal">
+                    <a href="/categories/shop-by-brands">Shop by brand</a>
+                    <a href="/categories/shop-by-section">Shop by section</a>
+                    <a href="/collections/sales">Sale Collection</a>
+                    <a href="/collections/best-seller">Best seller</a>
+                    </div>
         </nav>
       </header>
     </div>

@@ -10,8 +10,11 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-semibold"
           >
-            The destination for the best in beauty! <br></br>
-            products including makeup, cosmetics, <br></br>skincare, haircare, nails, fragrance and more,
+            <br></br>
+            The destination for the best in beauty!
+             <br></br>
+            products including makeup, cosmetics, 
+            <br></br>skincare, haircare, nails, fragrance and more,
 
           </Heading>
           <Heading

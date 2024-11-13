@@ -27,6 +27,12 @@ export default async function Nav() {
             >
               Wow Makeup Store
             </LocalizedClientLink>
+            <div className="scrollHorizantal">
+                    <a href="/categories/shop-by-brands">Shop by brand</a>
+                    <a href="/categories/shop-by-section">Shop by section</a>
+                    <a href="/collections/sales">Sale Collection</a>
+                    <a href="/collections/best-seller">Best seller</a>
+                    </div>
           </div>
 
           <div className="flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">

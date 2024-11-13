@@ -4,13 +4,12 @@ import { Button, Heading } from "@medusajs/ui"
 const Hero = () => {
   return (
     <div className="h-[75vh] relative w-full border-b border-ui-border-base relative bg-gradient-to-r from-blue-200 to-blue-300">
-      <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-5">
+      <div className="relative inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-5">
         <span>
           <Heading
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-semibold"
           >
-            <br></br>
             The destination for the best in beauty!
              <br></br>
             products including makeup, cosmetics, 
@@ -32,7 +31,6 @@ const Hero = () => {
               Shop Now
           </button>
         </a>
-        <br></br>
       </div>
     </div>
   )

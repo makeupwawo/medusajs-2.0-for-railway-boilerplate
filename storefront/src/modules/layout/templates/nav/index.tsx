@@ -65,13 +65,13 @@ export default async function Nav() {
             </Suspense>
             </div>
           </div>
-          <div className="scrollHorizantal">
+        </nav>
+        <div className="scrollHorizantal">
                     <a href="/categories/shop-by-brands">Shop by brand</a>
                     <a href="/categories/shop-by-section">Shop by section</a>
                     <a href="/collections/sales">Sale Collection</a>
                     <a href="/collections/best-seller">Best seller</a>
                     </div>
-        </nav>
       </header>
     </div>
   )

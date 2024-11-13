@@ -32,6 +32,7 @@ const Hero = () => {
               Shop Now
           </button>
         </a>
+        <br></br>
       </div>
     </div>
   )

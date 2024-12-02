@@ -49,7 +49,7 @@ export default async function userInviteHandler({
         </tr>`).join('')}
     </tbody>
   </table>
-  <h3>Sincerely,<br>The Wow Makeup Store Team</h3>
+  <h3>Sincerely,<br>The Makeup Store Team</h3>
 `;
 
   try {

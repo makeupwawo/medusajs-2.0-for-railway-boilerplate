@@ -6,7 +6,7 @@ import { getCollectionsWithProducts } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Wow Makeup Store -UAE, Shop products online At the lowest prices",
+  title: "Makeup Store , Shop products online At the lowest prices",
   description:
     " products including makeup, cosmetics, skincare, haircare, nails, fragrance and more, Explore our line up of trending brands today. At the lowest prices.",
 }

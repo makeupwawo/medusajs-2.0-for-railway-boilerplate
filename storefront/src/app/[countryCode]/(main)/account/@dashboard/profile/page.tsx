@@ -12,7 +12,7 @@ import { getCustomer } from "@lib/data/customer"
 
 export const metadata: Metadata = {
   title: "Profile",
-  description: "View and edit your Wow Makeup Store profile.",
+  description: "View and edit your Makeup Store profile.",
 }
 
 export default async function Profile() {
